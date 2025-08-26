@@ -1,0 +1,41 @@
+{
+  "name": "worldbank-mcp",
+  "version": "1.0.0",
+  "description": "World Bank Open Data MCP Server",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "start": "node build/index.js"
+  },
+  "keywords": ["mcp", "worldbank", "economics", "data", "api", "development"],
+  "author": "tianyuio <tianyu.io@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "axios": "^1.8.4",
+    "commander": "^14.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  },
+  "type": "module",
+  "bin": {
+    "worldbank-mcp": "./build/index.js"
+  },
+  "files": [
+    "build/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tianyuio/worldbank-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tianyuio/worldbank-mcp/issues"
+  },
+  "homepage": "https://github.com/tianyuio/worldbank-mcp#readme"
+}
