@@ -1,5 +1,9 @@
 # World Bank MCP 🌐
 
+[![npm version](https://img.shields.io/npm/v/worldbank-mcp.svg)](https://www.npmjs.com/package/worldbank-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/tianyuio/worldbank-mcp)](https://github.com/tianyuio/worldbank-mcp/issues)
+
 World Bank Model Context Protocol service based on World Bank Open Data API, which provides query capabilities for global economic and social development data.
 
 ## Features
@@ -7,7 +11,7 @@ World Bank Model Context Protocol service based on World Bank Open Data API, whi
 - ✅ Country information query
 - ✅ Indicator search (education, health, environment, etc.)
 - ✅ Economic data query (GDP, inflation, unemployment, etc.)
-- ✅ Social development data query (population, life expectancy, literacy rate, internet usage, etc.)
+- ✅ Social development data query (population, life expectancy, internet usage, etc.)
 - ✅ Education data query (literacy rate, school enrollment, etc.)
 - ✅ Health and nutrition data query (hospitals, immunization, HIV prevalence, malnutrition, etc.)
 - ✅ Real-time World Bank API integration
