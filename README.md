@@ -6,7 +6,7 @@
 
 World Bank Model Context Protocol service based on World Bank Open Data API, which provides query capabilities for global economic and social development data.
 
-## Features
+## 📋 Features
 
 - ✅ Country information query
 - ✅ Indicator search (education, health, environment, etc.)
@@ -17,35 +17,25 @@ World Bank Model Context Protocol service based on World Bank Open Data API, whi
 - ✅ Real-time World Bank API integration
 - ✅ Model Context Protocol compatibility
 
-## Installation and Usage
+## 📦 Installation
 
-### Install and build project
+### Install globally with npm
 ```bash
-# install via npm
 npm install -g worldbank-mcp
-
-# or clone and install
-git clone https://github.com/tianyuio/worldbank-mcp.git
-cd /your/path/to/worldbank-mcp
-npm install -g .
 ```
 
-### Run service
+### Run instantly with npx
 ```bash
-# stdio mode
-npm start
-
-# or run directly
 npx worldbank-mcp
 ```
 
-## Usage in MCP Clients
+## 💻 Usage in MCP Clients
 
 To use this service in MCP-compatible clients (such as Claude Desktop, Cursor, Cherry Studio, etc.), you need to configure it as follows:
 
 Configuration example:
 
-If you have installed it globally:
+### Run with npm if you have installed it globally:
 
 ```json
 {
@@ -59,7 +49,7 @@ If you have installed it globally:
 }
 ```
 
-Or using npx:
+### Run instantly with npx:
 
 ```json
 {
@@ -74,7 +64,7 @@ Or using npx:
 }
 ```
 
-Else if you have not installed it globally, using node directly:
+### Run directly with node:
 
 ```json
 {
@@ -92,7 +82,7 @@ Else if you have not installed it globally, using node directly:
 Replace `path/to/` with the actual path to your project directory.
 
 
-## MCP Tools
+## 🔧 MCP Tools
 
 ### 1. Get Countries List
 ```json
@@ -180,7 +170,9 @@ Replace `path/to/` with the actual path to your project directory.
 }
 ```
 
-## Supported Economic Indicators
+## 📖 Supported Indicators
+
+### Economic Indicators
 
 | Indicator Code | Description | Unit |
 |---------|------|------|
@@ -194,7 +186,7 @@ Replace `path/to/` with the actual path to your project directory.
 | INFLATION | Inflation rate | Annual % |
 | UNEMPLOYMENT | Unemployment rate | % of total labor force |
 
-## Supported Social Indicators
+### Social Indicators
 
 | Indicator Code | Description | Unit |
 |---------|------|------|
@@ -204,7 +196,7 @@ Replace `path/to/` with the actual path to your project directory.
 | DEATH_RATE | Death rate | per 1,000 people |
 | INTERNET_USERS | Internet users | % of population |
 
-## Supported Education Indicators
+### Education Indicators
 
 | Indicator Code | Description | Unit |
 |---------|------|------|
@@ -214,7 +206,7 @@ Replace `path/to/` with the actual path to your project directory.
 | TEACHERS_PRIMARY | Teachers in primary education | Count |
 | EDUCATION_EXPENDITURE | Government expenditure on education | % of GDP |
 
-## Supported Health and Nutrition Indicators
+### Health and Nutrition Indicators
 
 | Indicator Code | Description | Unit |
 |---------|------|------|
@@ -226,7 +218,7 @@ Replace `path/to/` with the actual path to your project directory.
 | MALNUTRITION | Prevalence of undernourishment | % of population |
 | TUBERCULOSIS | Incidence of tuberculosis | per 100,000 people |
 
-## Common Country Codes
+### Common Country Codes
 
 | Country | Code | Country | Code |
 |------|------|------|------|
@@ -265,6 +257,6 @@ Project uses World Bank Open Data API:
 - Indicator data: `/indicators`
 - Country indicator data: `/country/{code}/indicator/{id}`
 
-## Development Notes
+## License
 
-This project is based on MCP protocol standard architecture, integrates World Bank Open Data API, and provides global economic data query services.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
