@@ -9,6 +9,9 @@ yarn.lock
 .env*
 !.env.example
 
+# MCP Registry tokens
+.mcpregistry_*_token
+
 # IDE and editor files
 .vscode/
 .idea/
