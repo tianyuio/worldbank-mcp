@@ -1,7 +1,7 @@
 {
   "name": "worldbank-mcp",
   "mcpName": "io.github.tianyuio/worldbank-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "World Bank Open Data MCP Server",
   "main": "build/index.js",
   "scripts": {
@@ -9,7 +9,14 @@
     "prepare": "npm run build",
     "start": "node build/index.js"
   },
-  "keywords": ["mcp", "worldbank", "economics", "data", "api", "development"],
+  "keywords": [
+    "mcp",
+    "worldbank",
+    "economics",
+    "data",
+    "api",
+    "development"
+  ],
   "author": "tianyuio <tianyu.io@outlook.com>",
   "license": "MIT",
   "dependencies": {
