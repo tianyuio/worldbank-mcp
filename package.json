@@ -1,5 +1,6 @@
 {
   "name": "worldbank-mcp",
+  "mcpName": "io.github.tianyuio/worldbank-mcp",
   "version": "1.0.0",
   "description": "World Bank Open Data MCP Server",
   "main": "build/index.js",
